@@ -23,11 +23,19 @@ This project is a simulated ransomware application developed in Go, designed for
 ## 📦 Project Structure
 
 ```
-ransomware/
-├── main.go             # Main application logic
-├── crypto.go           # AES encryption/decryption functions
-├── keygen.go           # Key generation and storage
-└── README.md
+.
+├── actions
+│   ├── encrypt.go
+│   └── walk.go
+├── env
+│   └── env.go
+├── go.mod
+├── go.sum
+├── main.go
+├── README.md
+└── _utils
+    └── utils.go
+
 ```
 
 ## 🚀 How to Use
