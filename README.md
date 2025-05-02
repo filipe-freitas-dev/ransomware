@@ -49,14 +49,14 @@ go build -o ransomware
 ```bash
 ./ransomware encrypt /path/to/test-directory
 ```
+The program will encrypt files inside the specified directory.
 
 or 
 
 ```bash
 ./ransomware decrypt /path/to/test-directory
 ```
-
-The program will encrypt files inside the specified directory.
+The program will decrypt files inside the specified directory encrypted by this program.
 
 ## 🔐 Decryption
 
